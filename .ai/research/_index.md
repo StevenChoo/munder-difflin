@@ -19,7 +19,8 @@ decision came from; an implementation does not.
 
 <!-- BEGIN agent-generated:index-table -->
 
-| File | Status | Summary |
-| ---- | ------ | ------- |
+| File                                               | Status | Summary                                                                                       |
+| -------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------- |
+| [`agentjail-isolation.md`](agentjail-isolation.md) | Draft  | How Munder Difflin starts each agent inside AgentJail, and how the app runs for a first test. |
 
 <!-- END agent-generated:index-table -->

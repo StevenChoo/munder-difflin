@@ -6,11 +6,12 @@ Which repositories this checkout relates to, and what an agent may do with each.
 
 ## Core concepts
 
-| Repository                                                                        | Relationship | Notes                                                                                  |
-| --------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
-| [`HarnessMD/munder-difflin`](https://github.com/HarnessMD/munder-difflin)         | Upstream     | The project this fork comes from. Its maintainers review PRs and publish the releases. |
-| [`StevenChoo/munder-difflin`](https://github.com/StevenChoo/munder-difflin)       | This fork    | The `origin` remote. No `upstream` remote is configured in a fresh clone.              |
-| [`chaitanyagiri/munder-difflin`](https://github.com/chaitanyagiri/munder-difflin) | Upstream URL | The URL that `package.json`, the README and CONTRIBUTING use for the upstream project. |
+| Repository                                                                        | Relationship | Notes                                                                                                                                           |
+| --------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`HarnessMD/munder-difflin`](https://github.com/HarnessMD/munder-difflin)         | Upstream     | The project this fork comes from. Its maintainers review PRs and publish the releases.                                                          |
+| [`StevenChoo/munder-difflin`](https://github.com/StevenChoo/munder-difflin)       | This fork    | The `origin` remote. No `upstream` remote is configured in a fresh clone.                                                                       |
+| [`chaitanyagiri/munder-difflin`](https://github.com/chaitanyagiri/munder-difflin) | Upstream URL | The URL that `package.json`, the README and CONTRIBUTING use for the upstream project.                                                          |
+| AgentJail                                                                         | Sibling      | The developer's sandbox wrappers. Every agent this fork starts must run in it. See [`agentjail-isolation`](../research/agentjail-isolation.md). |
 
 ## Rules and constraints
 
