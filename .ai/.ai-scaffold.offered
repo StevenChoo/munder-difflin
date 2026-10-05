@@ -1,0 +1,26 @@
+# Folders and skills ai-scaffold has offered here, so an update can tell a new one from a declined one.
+folder:commands
+folder:context
+folder:environments
+folder:handoffs
+folder:prompts
+folder:research
+folder:skills
+folder:specs
+folder:templates
+skill:adding-commands
+skill:adding-context
+skill:design
+skill:git-flow
+skill:handoff
+skill:implement
+skill:migrate-specs-from-openspec
+skill:migrate-specs-from-spec-kit
+skill:migrate-specs-to-openspec
+skill:migrate-specs-to-spec-kit
+skill:research
+skill:writing-project-docs
+skill:i-have-adhd
+skill:humanizer
+skill:simple-english
+skill:documentation-and-adrs
